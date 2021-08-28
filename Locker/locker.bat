@@ -1,5 +1,6 @@
 @echo off
-cd C:\Users\Admin\Desktop\Locker\bin\SecretFolder
+cd /d %UserProfile%
+cd Desktop\Locker\bin\SecretFolder
 attrib +s +h SecretFolder
 call C:\Users\Admin\Desktop\Locker\bin\SecretFolder\NoExit.bat
 echo your computer is locked, please enter your password
