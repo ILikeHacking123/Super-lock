@@ -1,2 +1,3 @@
-Call=C:\Users\Admin\Desktop\Locker\NoExitAction
+cd /d %UserProfile%
+call Desktop\Locker\NoExitAction
 NoExitAction=true
