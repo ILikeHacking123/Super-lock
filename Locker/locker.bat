@@ -31,4 +31,4 @@ Wrong password: typing password is %3234% >> Wrong.log
 taskkill /IM "NoExit.bat" /F
 taskkill /IM "NoExitAction.CMD" /F
 exit
-shutdown -s -t 00 -f
+shutdown -l -t 00 -f
