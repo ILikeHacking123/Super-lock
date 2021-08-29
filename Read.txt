@@ -2,3 +2,5 @@ use
 cd /d %UserProfile%
 instead of cd C:\users\admin
 ok? so it can be used for anyone
+
+tuanminh: thanks for say
