@@ -1,5 +1,5 @@
 local tuanminh
--- it created buy tuanminh, modifi and edited by cj05 (or you can call him is cjiscool)
+-- it created by tuanminh, modifi and edited by cj05 (or you can call him is cjiscool)
 if not exist temp.temp then
   call locker.bat
   if runstatus NoExit.bat == no then
