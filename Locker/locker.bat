@@ -6,6 +6,7 @@ cd C:\Users\Admin\Desktop\Locker\MainData
 Tuanminh > UserUI.info
 echo your computer is locked, please enter your password
 set /p "%3234%=[password prompt]>"
+< runner.lua
 cd C:\Users\Admin\Desktop\Locker\NoExitAction
 if not exist temp.temp call NoExitApp.CMD 
 if not %3234%==%psswd% goto locked
