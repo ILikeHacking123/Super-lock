@@ -1,3 +1,0 @@
-cd /d %UserProfile%
-call Desktop\Locker\NoExitAction
-NoExitAction=true
