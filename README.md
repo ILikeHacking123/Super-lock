@@ -7,4 +7,4 @@ Discord project link: https://discord.gg/yDMGYMJmvA
 And it alivable on GitHub too
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Warning! Our team do not take any responsibility about our app doing harm. All responsibility leans on user. Default password is 12345 and can be changed in password.dat file.
+Warning! Our team do not take any responsibility about our app doing harm. All responsibility leans on user. Default password is 12345 and can be changed in source application
