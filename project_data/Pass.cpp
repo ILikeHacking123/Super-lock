@@ -1,11 +1,12 @@
 include <iostream>
 
-  int main() {
-    while (password != 1234) {
+int main() {
+  while (password != 1234) {
  
-      std::cout << "Incorrect password: ";
-      std::cin >> password;
-      }
+    std::cout << "Incorrect password: ";
+    std::cin >> password;
+      
+     return (0);
     }
   }
 }
