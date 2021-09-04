@@ -2,5 +2,5 @@ a = MsgBox("Welcome in PCLocker! Disclaimer: Our team do not take any responsibi
 If a = vbYes Then
 	Dim shell
 	Set shell = CreateObject("WScript.Shell")
-	shell.Run "lockerelevator.bat"
+	shell.Run "elevator.bat"
 End If
