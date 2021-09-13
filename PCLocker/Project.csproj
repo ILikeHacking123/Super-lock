@@ -1,0 +1,13 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="Build">
+  <PropertyGroup>
+		<AssemblyName>PCLocker v1.2</AssemblyName>
+		<OutputPath>Bin\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main.cs;web.cs" />
+  </ItemGroup>
+    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />
+    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" TargetType ="Winexe" Win32Icon="Bin/icon.ico" Optimize="true"/>
+  </Target>
+</Project>

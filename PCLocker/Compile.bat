@@ -1,0 +1,2 @@
+msbuild Project.csproj 
+pause
