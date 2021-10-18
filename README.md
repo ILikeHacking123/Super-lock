@@ -7,4 +7,4 @@ Discord project link: https://discord.gg/yDMGYMJmvA
 And it alivable on GitHub too
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Warning! Our team do not take any responsibility about our app doing harm (excpet malware or error software). All responsibility leans on user. Default password is 12345 and can be changed in the edit code (edit direct in the "locker.bat" app.")
+Warning! Our team do not take any responsibility about our app doing harm (excpet malware or error software). All responsibility leans on user. Default password is 12345 and can be changed in the code editor (edit direct in the "locker.bat" app.")
