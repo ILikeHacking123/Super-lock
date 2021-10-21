@@ -1,8 +1,11 @@
+local function runstatus
+  checkif().TaskRespond or TaskRunning
+end
 local tuanminh
--- it created by tuanminh, modifi and edited by cj05 (or you can call him is cjiscool)
--- the file modified at 29/08/2021, newest edition
+-- it created by tuanminh, modified and edited by cj05 (or you can call him is cjiscool)
+-- the file modified at 21/10/2021, newest edition
 -- TODO:
--- no exit while added
+-- no exit loop function is added
 if not exist temp.temp then
   call locker.bat
   if runstatus NoExit.bat == no then
@@ -30,3 +33,5 @@ local cj05
     end
   end
 end
+local tuanrunner = tuanrunner.locked
+tuanminh.locke.call.run()
