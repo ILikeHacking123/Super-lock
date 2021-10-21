@@ -1,2 +1,9 @@
 Call=C:\Users\Admin\Desktop\Locker\NoExitAction
 NoExitAction=true
+[VERSION]
+Signature = "Tuanminh-batch-locker"
+[Class = noclass]
+[RunnerFile]
+locker.bat    = yes
+runner.lua    = yes(compile)
+NoExit.bat    = yes
