@@ -10,5 +10,5 @@ And it alivable on GitHub too
 
 Warning! Our team do not take any responsibility about our app doing harm. All responsibility leans on user. Default password is 12345 and can be changed in password.dat file or via main app.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-To compile cs file just start cmd, write cd [file folder path], then csc [file name].
+To compile cs file just start cmd, write cd [file folder path], then csc [file name]. (TuanminhDev said: csc is fake, i tried on cmd and it said: 'csc' is not recognized as an internal or external command, operable program or batch file.)
 If you send virus here you will pay for this, so don't even try.
