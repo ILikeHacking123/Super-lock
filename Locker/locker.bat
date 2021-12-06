@@ -1,8 +1,6 @@
 @echo off
 cd C:\Users\Admin\Desktop\Locker\MainData
-< password.dat (
-  set /p psswd=
-) 
+set /a psswd=12345
 Tuanminh > UserUI.info
 echo your computer is locked, please enter your password
 set /p "%3234%=[password prompt]>"
@@ -13,7 +11,7 @@ if not %3234%==%psswd% goto locked
 if %3234%==%psswd% (
   echo please wait to the countdown count done
   timeout /t 10 /nobreak
-  goto locked
+  goto done
 )
   :: 12345 is password, change it to what password you want
 :done
