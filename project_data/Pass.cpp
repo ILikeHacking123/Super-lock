@@ -1,7 +1,7 @@
 include <iostream>
 
 int main() {
-  while (password != 1234) {
+  while (password != 12345) {
  
     std::cout << "Incorrect password: ";
     std::cin >> password;
